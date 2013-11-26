@@ -3,6 +3,7 @@ require 'formula'
 class Gnupg < Formula
   homepage 'http://www.gnupg.org/'
   url 'http://ftp.heanet.ie/mirrors/ftp.gnupg.org/gcrypt/gnupg/gnupg-1.4.15.tar.bz2'
+  mirror 'ftp://ftp.gnupg.org/gcrypt/gnupg/gnupg-1.4.15.tar.bz2'
   sha1 '63ebf0ab375150903c65738070e4105200197fd4'
 
   option '8192', 'Build with support for private keys of up to 8192 bits'

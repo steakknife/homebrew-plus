@@ -3,6 +3,7 @@ require 'formula'
 class Libgcrypt < Formula
   homepage 'http://gnupg.org/'
   url 'http://ftp.heanet.ie/mirrors/ftp.gnupg.org/gcrypt/libgcrypt/libgcrypt-1.5.3.tar.bz2'
+  mirror 'ftp://ftp.gnupg.org/gcrypt/libgcrypt/libgcrypt-1.5.3.tar.bz2'
   sha1 '2c6553cc17f2a1616d512d6870fe95edf6b0e26e'
 
   depends_on 'libgpg-error'

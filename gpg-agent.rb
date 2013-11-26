@@ -3,6 +3,7 @@ require 'formula'
 class GpgAgent < Formula
   homepage 'http://www.gnupg.org/'
   url 'http://ftp.heanet.ie/mirrors/ftp.gnupg.org/gcrypt/gnupg/gnupg-2.0.22.tar.bz2'
+  mirror 'ftp://ftp.gnupg.org/gcrypt/gnupg/gnupg-2.0.22.tar.bz2'
   sha1 '9ba9ee288e9bf813e0f1e25cbe06b58d3072d8b8'
 
   depends_on 'libgpg-error'
