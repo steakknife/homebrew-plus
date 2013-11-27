@@ -22,8 +22,8 @@ class Gcc49 < Formula
   end
 
   homepage 'http://gcc.gnu.org'
-  url 'http://gcc.petsads.us/snapshots/4.9-20131110/gcc-4.9-20131110.tar.bz2'
-  mirror 'ftp://gcc.gnu.org/pub/gcc/snapshots/4.9-20131110/gcc-4.9-20131110.tar.bz2'
+  mirror 'http://gcc.petsads.us/snapshots/4.9-20131110/gcc-4.9-20131110.tar.bz2'
+  url 'ftp://gcc.gnu.org/pub/gcc/snapshots/4.9-20131110/gcc-4.9-20131110.tar.bz2'
   sha1 '297b4fd9332c42440bd2d67b0d6a778c931bc4db'
 
   head 'svn://gcc.gnu.org/svn/gcc/trunk'

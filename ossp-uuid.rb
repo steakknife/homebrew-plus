@@ -2,6 +2,7 @@ require 'formula'
 
 class OsspUuid < Formula
   homepage 'http://www.ossp.org/pkg/lib/uuid/'
+  mirror 'http://gnome-build-stage-1.googlecode.com/files/uuid-1.6.2.tar.gz'
   url 'ftp://ftp.ossp.org/pkg/lib/uuid/uuid-1.6.2.tar.gz'
   bottle do
     cellar :any
@@ -10,7 +11,6 @@ class OsspUuid < Formula
     sha1 '8b22c81d6d1947cf7858e5c56e07ec1ad484cec8' => :lion
   end
 
-  mirror 'http://gnome-build-stage-1.googlecode.com/files/uuid-1.6.2.tar.gz'
   sha1 '3e22126f0842073f4ea6a50b1f59dcb9d094719f'
 
   option :universal

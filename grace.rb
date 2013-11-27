@@ -2,8 +2,8 @@ require 'formula'
 
 class Grace < Formula
   homepage 'http://plasma-gate.weizmann.ac.il/Grace/'
-  url 'http://down1.chinaunix.net/distfiles/grace-5.1.22.tar.gz'
-  mirror 'ftp://plasma-gate.weizmann.ac.il/pub/grace/src/grace5/grace-5.1.22.tar.gz'
+  mirror 'http://down1.chinaunix.net/distfiles/grace-5.1.22.tar.gz'
+  url 'ftp://plasma-gate.weizmann.ac.il/pub/grace/src/grace5/grace-5.1.22.tar.gz'
   sha1 '3ce88c7c264d2de73b8935f835a1c1f8e368c78f'
 
   depends_on :x11

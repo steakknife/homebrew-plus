@@ -2,8 +2,8 @@ require 'formula'
 
 class FreeradiusServer < Formula
   homepage 'http://freeradius.org/'
-  url 'http://fossies.org/linux/misc/freeradius-server-2.2.2.tar.gz'
-  mirror 'ftp://ftp.freeradius.org/pub/freeradius/freeradius-server-2.2.2.tar.gz'
+  mirror 'http://fossies.org/linux/misc/freeradius-server-2.2.2.tar.gz'
+  url 'ftp://ftp.freeradius.org/pub/freeradius/freeradius-server-2.2.2.tar.gz'
   sha1 '6aaa14169c20f257dcd5dcc61da0d0f985e9b5cc'
 
   # Requires newer autotools on all platforms

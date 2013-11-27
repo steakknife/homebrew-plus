@@ -4,8 +4,8 @@ require 'formula'
 
 class Ecj < Formula
   homepage 'http://gcc.gnu.org'
-  url 'http://mirrors.kernel.org/sources.redhat.com/java/ecj-4.5.jar'
-  mirror 'ftp://sourceware.org/pub/java/ecj-4.5.jar'
+  mirror 'http://mirrors.kernel.org/sources.redhat.com/java/ecj-4.5.jar'
+  url 'ftp://sourceware.org/pub/java/ecj-4.5.jar'
   sha1 '58c1d79c64c8cd718550f32a932ccfde8d1e6449'
 
   def install

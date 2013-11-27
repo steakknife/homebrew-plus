@@ -2,8 +2,8 @@ require 'formula'
 
 class Gpgme < Formula
   homepage 'http://www.gnupg.org/related_software/gpgme/'
-  url 'http://ftp.heanet.ie/mirrors/ftp.gnupg.org/gcrypt/gpgme/gpgme-1.4.3.tar.bz2'
-  mirror 'ftp://ftp.gnupg.org/gcrypt/gpgme/gpgme-1.4.3.tar.bz2'
+  mirror 'http://ftp.heanet.ie/mirrors/ftp.gnupg.org/gcrypt/gpgme/gpgme-1.4.3.tar.bz2'
+  url 'ftp://ftp.gnupg.org/gcrypt/gpgme/gpgme-1.4.3.tar.bz2'
   sha1 'ffdb5e4ce85220501515af8ead86fd499525ef9a'
 
   depends_on 'gnupg'

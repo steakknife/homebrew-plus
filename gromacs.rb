@@ -2,8 +2,8 @@ require 'formula'
 
 class Gromacs < Formula
   homepage 'http://www.gromacs.org/'
-  url 'http://fossies.org/linux/privat/gromacs-4.6.4.tar.gz'
-  mirror 'ftp://ftp.gromacs.org/pub/gromacs/gromacs-4.6.4.tar.gz'
+  mirror 'http://fossies.org/linux/privat/gromacs-4.6.4.tar.gz'
+  url 'ftp://ftp.gromacs.org/pub/gromacs/gromacs-4.6.4.tar.gz'
   sha1 'b8d0c4eb2efc858bcd2f23bbd5ef6fc931aa0578'
 
   option 'enable-mpi', "Enables MPI support"

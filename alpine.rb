@@ -2,8 +2,8 @@ require 'formula'
 
 class Alpine < Formula
   homepage 'http://www.washington.edu/alpine/'
-  url 'http://mirrorservice.org/sites/ftp.cac.washington.edu/imap/ALPINE/alpine-2.00.tar.gz'
-  mirror 'ftp://ftp.cac.washington.edu/alpine/alpine-2.00.tar.gz'
+  mirror 'http://mirrorservice.org/sites/ftp.cac.washington.edu/imap/ALPINE/alpine-2.00.tar.gz'
+  url 'ftp://ftp.cac.washington.edu/alpine/alpine-2.00.tar.gz'
   sha1 '363b3aa5d3eb1319e168639fbbc42b033b16f15b'
 
   def patches

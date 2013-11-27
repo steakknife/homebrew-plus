@@ -2,8 +2,8 @@ require 'formula'
 
 class Figlet < Formula
   homepage 'http://www.figlet.org'
-  url 'http://www.spacebison.com/files/figlet-2.2.5.tar.gz'
-  mirror 'ftp://ftp.figlet.org/pub/figlet/program/unix/figlet-2.2.5.tar.gz'
+  mirror 'http://www.spacebison.com/files/figlet-2.2.5.tar.gz'
+  url 'ftp://ftp.figlet.org/pub/figlet/program/unix/figlet-2.2.5.tar.gz'
   sha1 'dda696958c161bd71d6590152c94c4f705415727'
 
   resource 'contrib' do

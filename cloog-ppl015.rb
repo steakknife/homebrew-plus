@@ -2,8 +2,8 @@ require 'formula'
 
 class CloogPpl015 < Formula
   homepage 'http://repo.or.cz/w/cloog-ppl.git'
-  url 'http://gcc.petsads.us/infrastructure/cloog-ppl-0.15.11.tar.gz'
-  mirror 'ftp://gcc.gnu.org/pub/gcc/infrastructure/cloog-ppl-0.15.11.tar.gz'
+  mirror 'http://gcc.petsads.us/infrastructure/cloog-ppl-0.15.11.tar.gz'
+  url 'ftp://gcc.gnu.org/pub/gcc/infrastructure/cloog-ppl-0.15.11.tar.gz'
   sha1 '42fa476a79a1d52da41608a946dcb47c70f7e3b9'
 
   keg_only 'Conflicts with cloog in main repository.'
