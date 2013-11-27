@@ -4,8 +4,8 @@ class Libxml2 < Formula
   homepage 'http://xmlsoft.org'
 
   stable do
-    url 'ftp://xmlsoft.org/libxml2/libxml2-2.9.1.tar.gz'
-    mirror 'http://xmlsoft.org/sources/libxml2-2.9.1.tar.gz'
+    url 'http://xmlsoft.org/sources/libxml2-2.9.1.tar.gz'
+    mirror 'ftp://xmlsoft.org/libxml2/libxml2-2.9.1.tar.gz'
     sha256 'fd3c64cb66f2c4ea27e934d275904d92cec494a8e8405613780cbc8a71680fdb'
 
     # 2.9.1 cannot build with Python 2.6: https://github.com/mxcl/homebrew/issues/20249
