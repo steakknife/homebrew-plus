@@ -7,7 +7,7 @@
  - clozure-cl
  - dialog *
 
-* Lacks persistent, historical releases and http/ftp incongruence.
+\* Lacks persistent and historical releases; also http/ftp incongruence.
 
 
 ## TODO
