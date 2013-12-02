@@ -2,6 +2,7 @@ require 'formula'
 
 class Hyperspec < Formula
   homepage 'http://www.lispworks.com/documentation/common-lisp.html'
+  mirror 'http://distfiles.exherbo.org/distfiles/HyperSpec-7-0.tar.gz'
   url 'ftp://ftp.lispworks.com/pub/software_tools/reference/HyperSpec-7-0.tar.gz'
   version '7.0'
   sha1 '7c89db8a930b7bd1fd204a458a5dd05d7d46ab81'

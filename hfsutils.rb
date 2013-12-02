@@ -2,6 +2,7 @@ require 'formula'
 
 class Hfsutils < Formula
   homepage 'http://www.mars.org/home/rob/proj/hfs/'
+  mirror 'http://archive.ubuntu.com/ubuntu/pool/main/h/hfsutils/hfsutils_3.2.6.orig.tar.gz'
   url 'ftp://ftp.mars.org/pub/hfs/hfsutils-3.2.6.tar.gz'
   sha1 '6d71dfb2c93c0d8082972d39f3f75ae53a438d5d'
 
